@@ -1,5 +1,5 @@
 $colortop: #d35266;
-$colorsec: #888888;
+$colorsec: #888;
 $colorthird: #383838;
 
 .li:hover {
@@ -12,7 +12,8 @@ p {
 }
 
 .cl {
-  background: linear-gradient(to bottom, rgba(#d35266, 0.7)), url(./images/Mcbook17inch.jpg);
+  background: linear-gradient(to bottom, rgba(#d35266, 0.7)),
+    url('./images/Mcbook17inch.jpg');
   background-size: auto;
 }
 
@@ -41,7 +42,7 @@ p {
   bottom: 35px;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -54,7 +55,9 @@ p {
 }
 
 /* Change color of dropup links on hover */
-.dropup-content a:hover {background-color: #ddd}
+.dropup-content a:hover {
+  background-color: #ddd
+}
 
 /* Show the dropup menu on hover */
 .dropup:hover .dropup-content {
