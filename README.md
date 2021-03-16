@@ -39,14 +39,6 @@ Clone the project locally.
 Install and run a live server plugin on you IDE/Text editor and run it from the root directory.
 
 ## Authors
-
-👤 **Henry Verissimo**
-
-- Github: [@verissimohenry](https://github.com/verissimohenry)
-- Twitter: [@verissimohenry](https://twitter.com/verissimohenry)
-- Linkedin: [henry-verissimo](https://www.linkedin.com/in/henry-verissimo-618906167/)
-- Email:  verissimohenry04@gmail.com
-
 👤 **Tongoona Mujera**
 
 - Github: [@tongoonamujera](https://github.com/tongoonamujera)
