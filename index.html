@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="bg-dark">
+  <header>
+  <section class="bg-dark">
   <div class="container text-white">
     <div class="row d-flex justify-content-center">
       <div class="col-3">
@@ -30,7 +31,8 @@
       </div>
     </div>
   </div>
-</header>
+</section>
+<section class="d-none d-md-block">
   <nav class="cl">
   <div class="container py-3 mb-3">
     <div class="row">
@@ -41,27 +43,29 @@
     </div>
     <div class="row no-gutters">
       <div class="col-2">
-        <input type="text" name="text" placeholder="all categories" class="w-100 mx-0" id="text">
+        <button class="btn-light w-100">all categories</button>
       </div>
       <div class="col-4">
-        <input type="text" name="text" placeholder="what are you searching for?" class="w-100 mx-0" id="text2">
+        <button class="btn-light w-100">what are you searching for?</button>
       </div>
       <div class="col-4">
-        <input type="text" name="text" placeholder="country or region" class="w-100 mx-0" id="text3">
+        <button class="btn-light w-100">country or region</button>
       </div>
       <div class="col-2">
-        <input type="text" name="text" placeholder="search" class="w-100 mx-0" id="text4">
+        <button class="btn-light w-100">search</button>
       </div>
     </div>
   </div>
 </nav>
+</section>
+</header>
 <!--MAIN  SECTION-->
 <main>
   <div class="container bg-light">
     <!--mi cellpones-->
     <div class="row no-gutters bg-light">
       <h4>MI CELLPHONES</h4>
-      <div class="col">
+      <div class="col-6 col-sm-3 col-md-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/xiaomiRedmiNote8pro.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">Xiaomi Redmi Note 8 Pro · 6GB RAM · 64GB</p>
@@ -73,14 +77,14 @@
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
-                <a href="index1.html">More details</a>
+                <a href="./results/results.html">More details</a>
               </div>
             </div>
             <span class="p-2 text-danger">$215 </span>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-6 col-sm-3 col-md-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/huaweiMate40pro.jpg" alt="" class="h-50 w-100">
           <p class="bg-white text-dark">Huawei Mate 40 Pro .256GB .12GB RAM</p>
@@ -99,7 +103,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-6 col-sm-3 col-md-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/samsunga70.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">Samsung A70 .128GB .8GB RAM</p>
@@ -118,7 +122,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-6 col-sm-3 col-md-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/xiaomiRedmiNote8pro.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">Xiaomi Redmi Note 8  Pro</p>
@@ -143,7 +147,7 @@
   <div class="container">
     <div class="row no-gutters bg-light">
       <h4>laptops</h4>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/Mcbook17inch.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">McBook 17 inch .8GB of RAM. 256GB of storage</p>
@@ -162,7 +166,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/HpElitebook840G5.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">Hp Elitebook 840 G5 Touchscreen. Intel Core i7-8650U processor. 16GB of RAM. a 512GB, M.2 PCIe NVMe SSD and an Intel UHD Graphics 620.</p>
@@ -181,7 +185,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/HpElitebook840G5.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">Hp Elitebook 840 G5 Touchscreen</p>
@@ -200,7 +204,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/Mcbook17inch.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">McBook 17 inch</p>
@@ -225,7 +229,7 @@
   <div class="container">
     <div class="row no-gutters bg-light">
       <h4>HEADPHONES</h4>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/SamsungBluetoothHeadeset.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">Samsung Bluetooth Headeset</p>
@@ -244,7 +248,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/SamsungBluetoothHeadeset2.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">Samsung Bluetooth Headeset WHITE</p>
@@ -263,7 +267,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/JBLHeadPhones.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">JBL Head Phones</p>
@@ -282,7 +286,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/JBLHeadPhonesBT.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">JBL Head Phones BLUETOOTH</p>
@@ -307,7 +311,7 @@
   <div class="container">
     <div class="row no-gutters mx-1 bg-light">
       <h4>HOME APPLIANCES</h4>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/kohler5kwGenerator.jpg" alt="" class="h-100 w-100 mt-5 mb-4">
           <p class="bg-white text-dark pt-1 pb-4">KOHLER 15KVA PRIME POWER GENERATOR KK16IV</p>
@@ -326,7 +330,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/kipor10KvaGen.jpg" alt="" class="h-100 w-100 mt-5 mb-4">
           <p class="bg-white text-dark">Kipor 10 Kva DIESEL Generator</p>
@@ -345,7 +349,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/OmniPower-240Ah-12V-Sealed-Battery.jpg" alt="" class="h-100 w-100">
           <p class="bg-white text-dark">OmniPower 240Ah 12V Sealed Battery, Lead Acid Gel Battery</p>
@@ -357,14 +361,14 @@
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
-                <a href="#">More details</a>
+                <a href="">More details</a>
               </div>
             </div>
             <span class="p-2 text-danger">$ 559,22</span>
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/Best-Uninterruptible-Power-Supplies-UPS-For-2020.jpg" alt="" class="h-100 w-100 mt-5 mb-5">
           <p class="bg-white text-dark py-3">Best Uninterruptible Power Supplies UPS. 2200VA</p>
@@ -389,7 +393,7 @@
   <div class="container">
     <div class="row no-gutters mx-1 bg-light">
       <h4>TELEVISION SCREENS</h4>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/XiaomiSmart75inchTV.jpg" alt="" class="h-100 w-100">
         <p class="bg-white text-dark">Xiaomi Smart 75 inch Tv, 2GB RAM + 32GB storage</p>
@@ -408,7 +412,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/sony4K3D70inc.jpg" alt="" class="h-100 w-100 mt-3">
           <p class="bg-white text-dark py-2">70 Inch 4K Ultra HD LCD LED Smart 3D TV</p>
@@ -427,7 +431,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/SAMSUNG-65-UHD-4K-Curved-Smart-TV-RU7300.png" alt="" class="h-100 w-100 mt-0">
           <p class="bg-white text-dark py-0"> SAMSUNG 65 inch UHD 4K Curved Smart TV RU7300</p>
@@ -446,7 +450,7 @@
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
           <img src="./images/SAMSUNG-75-UHD-4K-Flat-Smart-T-RU7100.webp" alt="" class="h-100 w-100 mt-0">
           <p class="bg-white text-dark"> SAMSUNG 75 INCH UHD 4K Flat Smart TV RU7100</p>
@@ -489,7 +493,7 @@
   </div>
   <div class="container">
     <div class="row mx-auto">
-      <div class="col-4 mx-auto">
+      <div class="col-12 col-sm-4 col-md-4 mx-auto">
         <p class="text-white">&copy;2021 TRIPPLE STARS&trade; electronics all rigths reserved</p>
       </div>
     </div>
