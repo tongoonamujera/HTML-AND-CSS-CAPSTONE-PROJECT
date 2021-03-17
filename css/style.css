@@ -12,13 +12,11 @@
   cursor: pointer;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -29,7 +27,6 @@
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -37,19 +34,16 @@
   display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #7a807a;
 }
 
 ul {
@@ -63,6 +57,10 @@ p {
 button > a {
   text-decoration: none;
   color: whitesmoke;
+}
+
+.topb {
+  text-decoration: none;
 }
 
 .topb:hover {
@@ -87,13 +85,11 @@ button > a {
   border: none;
 }
 
-/* The container <div> - needed to position the dropup content */
 .dropup {
   position: relative;
   display: inline-block;
 }
 
-/* Dropup content (Hidden by Default) */
 .dropup-content {
   display: none;
   position: absolute;
@@ -105,7 +101,6 @@ button > a {
   z-index: 1;
 }
 
-/* Links inside the dropup */
 .dropup-content a {
   color: black;
   padding: 12px 16px;
@@ -113,19 +108,22 @@ button > a {
   display: block;
 }
 
-/* Change color of dropup links on hover */
 .dropup-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropup menu on hover */
 .dropup:hover .dropup-content {
   display: block;
 }
 
-/* Change the background color of the dropup button when the dropup content is shown */
 .dropup:hover .dropbtn {
   background-color: #383838;
   color: red;
+}
+
+@media only screen and (max-width: 767px) {
+  .topb {
+    font-size: 8px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
