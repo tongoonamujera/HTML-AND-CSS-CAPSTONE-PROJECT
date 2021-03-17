@@ -1,7 +1,6 @@
 # Using Bootstrap - Milestone 1 
 
-> In the first milestone, we were asked to  prepare the tools to develop this website and will create 2 small sections(ie the Header and footer).
-> We were asked to  Create these sections of the website for the 3 screen sizes.
+> I was asked to build for the HTML & CSS Capstone Project is based on an online shop for electronics. I was asked to follow the given design of the website.
 
 ![screenshot](images/sce.png)
 
