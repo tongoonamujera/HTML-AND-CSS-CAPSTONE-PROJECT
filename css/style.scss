@@ -15,6 +15,12 @@ $colorthird: #383838;
   border: none;
   cursor: pointer;
 }
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
 .dropdown {
   position: relative;
@@ -89,13 +95,6 @@ p {
   min-width: 160px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
-}
-
-.dropup-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
 }
 
 .dropup-content a:hover {
