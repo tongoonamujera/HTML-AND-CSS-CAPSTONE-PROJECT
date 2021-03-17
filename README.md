@@ -2,12 +2,7 @@
 
 > I was asked to build for the HTML & CSS Capstone Project is based on an online shop for electronics. I was asked to follow the given design of the website.
 
-![screenshot](images/sce.png)
-
-![screenshot](images/sce1.png)
-
-
-![screenshot](images/sce2.png)
+![screenshot!](https://user-images.githubusercontent.com/69446259/111504539-72e9f200-8750-11eb-90f4-ae162bf5dd58.PNG)
 
 Additional description about the project and its features.
 
