@@ -8,7 +8,7 @@ $colorthird: #383838;
 }
 
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -26,7 +26,7 @@ $colorthird: #383838;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -38,7 +38,7 @@ $colorthird: #383838;
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
@@ -55,11 +55,6 @@ ul {
 
 p {
   font-size: 11px;
-}
-
-button > a {
-  text-decoration: none;
-  color: whitesmoke;
 }
 
 .topb {
