@@ -11,6 +11,15 @@ p {
   font-size: 11px;
 }
 
+button > a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.topb:hover {
+  background-color: $colortop;
+}
+
 .cl {
   background:
     linear-gradient(
