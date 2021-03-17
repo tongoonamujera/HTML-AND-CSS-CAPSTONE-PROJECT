@@ -68,18 +68,6 @@ p {
   background-size: auto;
 }
 
-/* Dropup Button */
-.dropbtn {
-  background-color: #edf1f5;
-  color: #201f1f;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  font-size: 16px;
-  border: none;
-}
-
 .dropup {
   position: relative;
   display: inline-block;
