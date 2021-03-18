@@ -2,6 +2,18 @@ $colortop: #d35266;
 $colorsec: #888;
 $colorthird: #383838;
 
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+.bg-secondar {
+  background-color: $colorthird;
+}
+
+footer {
+  background-color: $colorthird;
+}
+
 .li:hover {
   background-color: black;
   color: aliceblue;
