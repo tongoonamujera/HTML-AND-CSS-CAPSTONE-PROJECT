@@ -11,29 +11,28 @@
 </head>
 <body>
   <header>
-    <section class="bg-dark">
-    <div class="container text-white">
-      <div class="row d-flex justify-content-center">
-        <div class="col-3">
-          <button class="btn-dark text-light topb">TRIPPLE STARS&reg;</button>
-        </div>
-        <div class="col-2">
-          <a href="../index.html" class="btn-dark text-light topb">HOME</a>
-        </div>
-        <div class="col-2">
-          <button class="btn-dark text-light topb">COLLECTIONS</button>
-        </div>
-        <div class="col-2">
-          <button class="btn-dark text-light topb">PURCHASE LIST</button>
-        </div>
-        <div class="col-3">
-          <button class="btn-dark text-light topb">SELL YOUR PRODUCTS</button>
-        </div>
+    <div class="bg-secondary">
+    <section class="container">
+      <div class="row">
+        <span class="col-2 text-light tr">TRIPPLE STARS&reg;</span>
+        <nav class="col-10 d-flex justify-content-between">
+          <a href="../index.html" class="topb">HOME</a>
+          <div class="dropdown">
+            <a href="#" class="dropbtn btn-light w-100 topb">PRODUCTS</a>
+            <div class="dropdown-content">
+              <a href="./laptops.html">Laptops</a>
+              <a href="./homeApp.html">Home Electricals</a>
+              <a href="./results.html">Cellphones</a>
+              <a href="./television.html">Televisons</a>
+            </div>
+          </div>
+          <a href="./television.html" class="topb">COLLECTIONS</a>
+          <a href="./laptops.html" class="topb">SELL PRODUCTS</a>
+        </nav>
       </div>
+    </section>
     </div>
-  </section>
-  <section class="d-none d-md-block">
-    <nav class="cl">
+  <section class="d-none d-md-block cl">
     <div class="container py-3 mb-3">
       <div class="row">
         <div class="col text-white d-flex flex-column align-items-center">
@@ -42,37 +41,14 @@
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-2">
-          <div class="dropdown">
-            <button class="dropbtn btn-light w-100">All categories</button>
-            <div class="dropdown-content">
-              <a href="./laptops.html">Laptops</a>
-              <a href="./homeApp.html">Home Electricals</a>
-              <a href="./results.html">Cellphones</a>
-              <a href="./television.html">Televisons</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="dropdown">
-            <button class="dropbtn btn-light w-100">What are you searching for?</button>
-            <div class="dropdown-content">
-              <a href="./laptops.html">Laptops</a>
-              <a href="./homeApp.html">Home Electricals</a>
-              <a href="./results.html">Cellphones</a>
-              <a href="./television.html">Televisons</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <button class="btn-light w-100 py-2">Country or region</button>
-        </div>
-        <div class="col-2">
-          <button class="btn-dark text-light w-100 py-2">Search</button>
-        </div>
+        <form action="index.html" class="col-12 d-flex">
+          <input type="text" name="categories" class="col-3 text-center" placeholder="All categories" id="cat">
+          <input type="text" name="quest" class="col-4 mx-1 text-center" placeholder="What are you searching for?" id="quest">
+          <input type="text" name="quest" class="col-4 mx-1 text-center" placeholder="Country or Region" id="quest">
+          <input type="submit" class="col-1 bg-secondary text-light" value="Search">
+        </form>
       </div>
     </div>
-  </nav>
   </section>
   </header>
   <!--end of header-->
@@ -282,6 +258,7 @@
  <!--MAIN SECTION END HERE-->
     <!--FOOTER SECTION-->
     <footer class="bg-dark W-100">
+      <h6 class="text-capitalize text-light text-center my-2">For more detailed information about our products and deal contact us on the following social platforms</h6>
       <div class="container">
         <div class="row d-flex justify-content-between mx-auto no-gutters py-3">
           <div class="col-2">
