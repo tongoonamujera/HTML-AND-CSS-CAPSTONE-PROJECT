@@ -8,9 +8,7 @@ $colorthird: #383838;
 }
 
 .dropbtn {
-  background-color: white;
-  color: $colorsec;
-  padding: 16px;
+  background-color: $colorsec;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -53,7 +51,7 @@ $colorthird: #383838;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #7a807a;
+  background-color: $colortop;
 }
 
 ul {
@@ -66,10 +64,12 @@ p {
 
 .topb {
   text-decoration: none;
+  color: white;
 }
 
 .topb:hover {
   background-color: $colortop;
+  color: #ddd;
 }
 
 .cl {
