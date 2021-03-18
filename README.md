@@ -1,8 +1,8 @@
 # Using Bootstrap - Milestone 1 
 
-> I was asked to build for the HTML & CSS Capstone Project is based on an online shop for electronics. I was asked to follow the given design of the website.
+>This is my Html & CSS Capstone project based on an online shop for electronics. This app follows the given design and allows customers to shop and order electronic consumer goods such as televisions, cell phones, laptops, generators and headsets
 
-![screenshot!](https://user-images.githubusercontent.com/69446259/111504539-72e9f200-8750-11eb-90f4-ae162bf5dd58.PNG)
+![Capturelast](https://user-images.githubusercontent.com/69446259/111616955-30292800-87eb-11eb-8fab-66c2d360aa81.PNG)
 
 Additional description about the project and its features.
 
