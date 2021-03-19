@@ -1,14 +1,8 @@
 # Using Bootstrap - Milestone 1 
 
-> In the first milestone, we were asked to  prepare the tools to develop this website and will create 2 small sections(ie the Header and footer).
-> We were asked to  Create these sections of the website for the 3 screen sizes.
+>This is my Html & CSS Capstone project based on an online shop for electronics. This app follows the given design and allows customers to shop and order electronic consumer goods such as televisions, cell phones, laptops, generators and headsets
 
-![screenshot](images/sce.png)
-
-![screenshot](images/sce1.png)
-
-
-![screenshot](images/sce2.png)
+![Capturelast](https://user-images.githubusercontent.com/69446259/111616955-30292800-87eb-11eb-8fab-66c2d360aa81.PNG)
 
 Additional description about the project and its features.
 
@@ -21,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://verissimohenry.github.io/Newsweek/)
+[Live Demo Link](https://tongoonamujera.github.io/HTML-AND-CSS-CAPSTONE-PROJECT/)
 
 ## To get a local copy up and running follow these simple example steps.
 

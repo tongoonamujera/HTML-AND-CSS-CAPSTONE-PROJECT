@@ -5,40 +5,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <link rel="stylesheet" href="./css/bootstrap.rtl.css">
-  <link rel="stylesheet" href="./css/bootstrap.rtl.min.csss">
+  <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="all.css">
-  <!-- CSS only -->
-  <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="bg-dark">
-  <div class="container text-white">
-    <div class="row d-flex justify-content-center">
-      <div class="col-3">
-        <button class="btn-dark text-light">TRIPPLE STARS&reg;</button>
-      </div>
-      <div class="col-2">
-        <button class="btn-dark text-light">HOME</button>
-      </div>
-      <div class="col-2">
-        <button class="btn-dark text-light">COLLECTIONS</button>
-      </div>
-      <div class="col-2">
-        <button class="btn-dark text-light">PURCHASE LIST</button>
-      </div>
-      <div class="col-3">
-        <button class="btn-dark text-light">SELL YOUR PRODUCTS</button>
-      </div>
+  <header>
+  <div class="bg-secondar">
+  <section class="container">
+    <div class="row">
+      <span class="col-2 text-light tr">TRIPPLE STARS&reg;</span>
+      <nav class="col-10 d-flex justify-content-between">
+        <a href="./index.html" class="topb">HOME</a>
+        <div class="dropdown">
+          <a href="#" class="dropbtn btn-light w-100 topb">PRODUCTS</a>
+          <div class="dropdown-content">
+            <a href="./results/laptops.html">Laptops</a>
+            <a href="./results/homeApp.html">Home Electricals</a>
+            <a href="./results/results.html">Cellphones</a>
+            <a href="./results/television.html">Televisons</a>
+          </div>
+        </div>
+        <a href="./results/television.html" class="topb">COLLECTIONS</a>
+        <a href="./results/laptops.html" class="topb">SELL PRODUCTS</a>
+      </nav>
     </div>
+  </section>
   </div>
-</header>
-  <nav class="cl">
+<section class="d-none d-md-block cl">
   <div class="container py-3 mb-3">
     <div class="row">
       <div class="col text-white d-flex flex-column align-items-center">
@@ -47,424 +41,447 @@
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-2">
-        <input type="text" name="text" placeholder="all categories" class="w-100 mx-0" id="text">
+      <form action="index.html" class="col-12 d-flex">
+        <input type="text" name="categories" class="col-3 text-center" placeholder="All categories" id="cat">
+        <input type="text" name="quest" class="col-4 mx-1 text-center" placeholder="What are you searching for?" id="quest">
+        <input type="text" name="quest" class="col-4 mx-1 text-center" placeholder="Country or Region" id="quet">
+        <input type="submit" class="col-1 bg-secondary text-light" value="Search">
+      </form>
+    </div>
+  </div>
+</section>
+</header>
+<!--MAIN  SECTION-->
+<main>
+  <div class="container bg-light">
+    <div class="row">
+      <h6 class="col-12">Hot Ads</h6>
+      <section class="col-md-4 col-12">
+        <img src="../images/XiaomiSmart75inchTV.jpg" class="h-100 w-100" alt="">
+      </section>
+      <section class="col-md-8 col-12 d-flex flex-column justify-content-between">
+        <p><strong> Xiaomi Smart 75 inch Tv, 2GB RAM + 32GB storage </strong></p>
+        <h6 class="text-centers">Functionality</h6>
+        <p>It can also act as a hub for the Xiaomi smart home. The TV uses the PatchWall 2.0 operating system. Xiaomi Mi TV Pro 75″ specifications. 75-inch (3840×2160 pixels) display with 178-degree viewing angle, HDR 10; 1.9GHz Amlogic Cortex Quad-Core Cortex A55 T972 12nm processor with Mali-G31 MP2 GPU; 2GB RAM, 32GB storage; PatchWall 2.0 OS</p>
+        <section class="align-items-end d-flex justify-content-between">
+          <button class="btn-danger">Buy for $528.52</button>
+          <button class="btn-danger">Negotiate</button>
+          <button class="btn-danger">Contact Us</button>
+        </section>
+      </section>
+    </div>
+    <!--mi cellpones-->
+    <div class="row no-gutters bg-light">
+      <h4>Cellphones</h4>
+      <div class="col-6 col-sm-3 col-md-3">
+        <div class="bg-white border border-secondary px-3">
+          <img src="./images/xiaomiRedmiNote8pro.jpg" alt="xiaomiRedmiNote8pro" class="h-100 w-100">
+          <p class="bg-white text-dark"> <strong>Xiaomi Redmi Note 8 Pro · 6GB RAM · 64GB</strong></p>
+          <p class="text-danger">New</p>
+          <p>From Harare, Zimbabwe</p>
+          <div class="d-flex justify-content-between bg-white mb-3">
+            <div class="dropup">
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
+              <div class="dropup-content">
+                <a href="#">Add to Collection</a>
+                <a href="#">Send a Message</a>
+                <a href="./results/results.html">More details</a>
+              </div>
+            </div>
+            <span class="p-2 text-danger">$215 </span>
+          </div>
+        </div>
       </div>
-      <div class="col-4">
-        <input type="text" name="text" placeholder="what are you searching for?" class="w-100 mx-0" id="text">
+      <div class="col-6 col-sm-3 col-md-3">
+        <div class="bg-white border border-secondary px-3">
+          <img src="./images/huaweiMate40pro.jpg" alt="huaweiMate40pro" class="h-50 w-100">
+          <p class="bg-white text-dark"><strong>Huawei Mate 40 Pro .256GB .12GB RAM</strong></p>
+          <p class="text-danger">New</p>
+          <p>From Harare, Zimbabwe</p>
+          <div class="d-flex justify-content-between bg-white mb-3">
+            <div class="dropup">
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
+              <div class="dropup-content">
+                <a href="#">Add to Collection</a>
+                <a href="#">Send a Message</a>
+                <a href="#">More details</a>
+              </div>
+            </div>
+            <span class="p-2 text-danger">$1 600</span>
+          </div>
+        </div>
       </div>
-      <div class="col-4">
-        <input type="text" name="text" placeholder="country or region" class="w-100 mx-0" id="text">
+      <div class="col-6 col-sm-3 col-md-3">
+        <div class="bg-white border border-secondary px-3">
+          <img src="./images/samsunga70.jpg" alt="samsunga70" class="h-100 w-100">
+          <p class="bg-white text-dark"><strong>Samsung A70 .128GB .8GB RAM</strong></p>
+          <p class="text-danger">New</p>
+          <p>From Harare, Zimbabwe</p>
+          <div class="d-flex justify-content-between bg-white mb-3">
+            <div class="dropup">
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
+              <div class="dropup-content">
+                <a href="#">Add to Collection</a>
+                <a href="#">Send a Message</a>
+                <a href="#">More details</a>
+              </div>
+            </div>
+            <span class="p-2 text-danger">$ 284.99</span>
+          </div>
+        </div>
       </div>
-      <div class="col-2">
-        <input type="text" name="text" placeholder="search" class="w-100 mx-0" id="text">
+      <div class="col-6 col-sm-3 col-md-3">
+        <div class="bg-white border border-secondary px-3">
+          <img src="./images/xiaomiRedmiNote8pro.jpg" alt="xiaomiRedmiNote8pro" class="h-100 w-100">
+          <p class="bg-white text-dark">Xiaomi Redmi Note 8  Pro</p>
+          <p class="text-danger">New</p>
+          <p>From Harare, Zimbabwe</p>
+          <div class="d-flex justify-content-between bg-white mb-3">
+            <div class="dropup">
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
+              <div class="dropup-content">
+                <a href="#">Add to Collection</a>
+                <a href="#">Send a Message</a>
+                <a href="#">More details</a>
+              </div>
+            </div>
+            <span class="p-2 text-danger">$$$$</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</nav>
-<!--MAIN  SECTION-->
-<main class="bg-dark">
-  <div class="container bg-light">
-    <!--mi cellpones-->
+    <!--laptops-->
+  <div class="container">
     <div class="row no-gutters bg-light">
-      <h4>MI CELLPHONES</h4>
-      <div class="col">
+      <h4>laptops</h4>
+      <div class="col-6 col-sm-3 col-md-3 my-1">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/xiaomiRedmiNote8pro.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">Xiaomi Redmi Note 8  Pro</p>
+          <img src="./images/Mcbook17inch.jpg" alt="Mcbook17inch" class="h-100 w-100">
+          <p class="bg-white text-dark"><strong>McBook 17 inch .8GB of RAM. 256GB of storage</strong></p>
           <p class="text-danger">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
-                <a href="index1.html">More details</a>
+                <a href="./results/laptops.html">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$320</span>
+            <span class="p-2 text-danger">$1,299</span>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-6 col-sm-3 col-md-3 my-1">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/huaweiMate40pro.jpg" alt="" class="h-50 w-100">
-          <p class="bg-white text-dark">Huawei Mate 40 Pro</p>
+          <img src="./images/HpElitebook840G5.jpg" alt="HpElitebook840G5" class="h-100 w-100">
+          <p class="bg-white text-dark"><strong> Hp Elitebook 840 G5 Touchscreen. Intel Core i7-8650U processor. 16GB of RAM. a 512GB, M.2 PCIe NVMe SSD and an Intel UHD Graphics 620.</strong></p>
           <p class="text-danger">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$2,295 </span>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-6 col-sm-3 col-md-3 my-1">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/samsung a70.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">Samsung A70 s</p>
+          <img src="./images/Acer-Chromebook-15Inch.jpg" alt="Acer-Chromebook-15Inch" class="h-100 w-100">
+          <p class="bg-white text-dark"><strong>Acer Chromebook 15 Inch</strong></p>
           <p class="text-danger">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$420</span>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-6 col-sm-3 col-md-3 my-1">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/xiaomiRedmiNote8pro.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">Xiaomi Redmi Note 8  Pro</p>
-          <p class="text-danger">New</p>
+          <img src="./images/Dell-Inspiron-17-Inch-Laptop.jpg" alt="Dell-Inspiron-17-Inch-Laptop" class="h-100 w-100">
+          <p class="bg-white text-dark py-2"><strong>Dell-Inspiron-17-Inch-Laptop</strong></p>
+          <p class="text-danger py-2">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$390</span>
           </div>
         </div>
       </div>
     </div>
-    <!--laptops-->
-    <div class="row no-gutters bg-light">
-      <h4>laptops</h4>
-      <div class="col my-3">
-        <div class="bg-white border border-secondary px-3">
-          <img src="./images/Mcbook17inch.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">McBook 17 inch</p>
-          <p class="text-danger">New</p>
-          <p>From Harare, Zimbabwe</p>
-          <div class="d-flex justify-content-between bg-white mb-3">
-            <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
-              <div class="dropup-content">
-                <a href="#">Add to Collection</a>
-                <a href="#">Send a Message</a>
-                <a href="#">More details</a>
-              </div>
-            </div>
-            <span class="p-2 text-danger">$$$$</span>
-          </div>
-        </div>
-      </div>
-      <div class="col my-3">
-        <div class="bg-white border border-secondary px-3">
-          <img src="./images/HpElitebook840G5.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">Hp Elitebook 840 G5 Touchscreen</p>
-          <p class="text-danger">New</p>
-          <p>From Harare, Zimbabwe</p>
-          <div class="d-flex justify-content-between bg-white mb-3">
-            <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
-              <div class="dropup-content">
-                <a href="#">Add to Collection</a>
-                <a href="#">Send a Message</a>
-                <a href="#">More details</a>
-              </div>
-            </div>
-            <span class="p-2 text-danger">$$$$</span>
-          </div>
-        </div>
-      </div>
-      <div class="col my-3">
-        <div class="bg-white border border-secondary px-3">
-          <img src="./images/HpElitebook840G5.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">Hp Elitebook 840 G5 Touchscreen</p>
-          <p class="text-danger">New</p>
-          <p>From Harare, Zimbabwe</p>
-          <div class="d-flex justify-content-between bg-white mb-3">
-            <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
-              <div class="dropup-content">
-                <a href="#">Add to Collection</a>
-                <a href="#">Send a Message</a>
-                <a href="#">More details</a>
-              </div>
-            </div>
-            <span class="p-2 text-danger">$$$$</span>
-          </div>
-        </div>
-      </div>
-      <div class="col my-3">
-        <div class="bg-white border border-secondary px-3">
-          <img src="./images/Mcbook17inch.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">McBook 17 inch</p>
-          <p class="text-danger">New</p>
-          <p>From Harare, Zimbabwe</p>
-          <div class="d-flex justify-content-between bg-white mb-3">
-            <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
-              <div class="dropup-content">
-                <a href="#">Add to Collection</a>
-                <a href="#">Send a Message</a>
-                <a href="#">More details</a>
-              </div>
-            </div>
-            <span class="p-2 text-danger">$$$$</span>
-          </div>
-        </div>
-      </div>
+  </div>
       <!--head phones-->
+  <div class="container">
     <div class="row no-gutters bg-light">
       <h4>HEADPHONES</h4>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/SamsungBluetoothHeadeset.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">Samsung Bluetooth Headeset</p>
+          <img src="./images/SamsungBluetoothHeadeset.jpg" alt="SamsungBluetoothHeadeset" class="h-100 w-100">
+          <p class="bg-white text-dark"><strong> Samsung Bluetooth Headeset</strong></p>
           <p class="text-danger">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$10</span>
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/SamsungBluetoothHeadeset2.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">Samsung Bluetooth Headeset WHITE</p>
+          <img src="./images/SamsungBluetoothHeadeset2.jpg" alt="SamsungBluetoothHeadeset2" class="h-100 w-100">
+          <p class="bg-white text-dark"><strong>Samsung Bluetooth Headeset WHITE</strong></p>
           <p class="text-danger">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$10</span>
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/JBLHeadPhones.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">JBL Head Phones</p>
+          <img src="./images/JBLHeadPhones.jpg" alt="JBLHeadPhones" class="h-100 w-100">
+          <p class="bg-white text-dark"><strong> JBL Head Phones</strong></p>
           <p class="text-danger">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$15</span>
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/JBLHeadPhonesBT.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">JBL Head Phones BLUETOOTH</p>
+          <img src="./images/JBLHeadPhonesBT.jpg" alt="JBLHeadPhonesBT" class="h-100 w-100">
+          <p class="bg-white text-dark"><strong>JBL Head Phones BLUETOOTH</strong></p>
           <p class="text-danger">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$15</span>
           </div>
         </div>
       </div>
+    </div>
+  </div>
       <!--HOME APPLIANCES-->
+  <div class="container">
     <div class="row no-gutters mx-1 bg-light">
       <h4>HOME APPLIANCES</h4>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/kohler5kwGenerator.jpg" alt="" class="h-100 w-100 mt-5">
-          <p class="bg-white text-dark">kohler 5kw Generator</p>
+          <img src="./images/kohler5kwGenerator.jpg" alt="kohler5kwGenerator" class="h-100 w-100 mt-5 mb-4">
+          <p class="bg-white text-dark pt-1 pb-4"><strong>KOHLER 15KVA PRIME POWER GENERATOR KK16IV</strong></p>
+          <p class="text-danger py-2">New</p>
+          <p>From Harare, Zimbabwe</p>
+          <div class="d-flex justify-content-between bg-white mb-3">
+            <div class="dropup">
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
+              <div class="dropup-content">
+                <a href="#">Add to Collection</a>
+                <a href="#">Send a Message</a>
+                <a href="./results/homeApp.html">More details</a>
+              </div>
+            </div>
+            <span class="p-2 text-danger">$5,377.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-3 col-md-3 my-3">
+        <div class="bg-white border border-secondary px-3">
+          <img src="./images/kipor10KvaGen.jpg" alt="kipor10KvaGen" class="h-100 w-100 mt-5 mb-4">
+          <p class="bg-white text-dark"><strong>Kipor 10 Kva DIESEL Generator</strong></p>
+          <p class="text-danger py-2">New</p>
+          <p>From Harare, Zimbabwe</p>
+          <div class="d-flex justify-content-between bg-white mb-3">
+            <div class="dropup">
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
+              <div class="dropup-content">
+                <a href="#">Add to Collection</a>
+                <a href="#">Send a Message</a>
+                <a href="#">More details</a>
+              </div>
+            </div>
+            <span class="p-2 text-danger">$ 4 141,37</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-3 col-md-3 my-3">
+        <div class="bg-white border border-secondary px-3">
+          <img src="./images/OmniPower-240Ah-12V-Sealed-Battery.jpg" alt="OmniPower-240Ah-12V-Sealed-Battery" class="h-100 w-100">
+          <p class="bg-white text-dark"><strong>OmniPower 240Ah 12V Sealed Battery, Lead Acid Gel Battery</strong></p>
           <p class="text-danger">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
-                <a href="#">More details</a>
+                <a href="">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$ 559,22</span>
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/kipor10KvaGen.jpg" alt="" class="h-100 w-100">
-          <p class="bg-white text-dark">Kipor 10 Kva Gen</p>
-          <p class="text-danger">New</p>
+          <img src="./images/Best-Uninterruptible-Power-Supplies-UPS-For-2020.jpg" alt="UPS" class="h-100 w-100 mt-5 mb-5">
+          <p class="bg-white text-dark py-3"><strong>Best Uninterruptible Power Supplies UPS. 2200VA</strong></p>
+          <p class="text-danger py-3">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$ 112,43</span>
           </div>
         </div>
       </div>
-      <div class="col my-3">
-        <div class="bg-white border border-secondary px-3">
-          <img src="./images/solarBatteries.jpg" alt="" class="h-100 w-100 mt-5">
-          <p class="bg-white text-dark pt-3">solar Batteries</p>
-          <p class="text-danger">New</p>
-          <p>From Harare, Zimbabwe</p>
-          <div class="d-flex justify-content-between bg-white mb-3">
-            <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
-              <div class="dropup-content">
-                <a href="#">Add to Collection</a>
-                <a href="#">Send a Message</a>
-                <a href="#">More details</a>
-              </div>
-            </div>
-            <span class="p-2 text-danger">$$$$</span>
-          </div>
-        </div>
-      </div>
-      <div class="col my-3">
-        <div class="bg-white border border-secondary px-3">
-          <img src="./images/Best-Uninterruptible-Power-Supplies-UPS-For-2020.jpg" alt="" class="h-100 w-100 mt-5">
-          <p class="bg-white text-dark py-3">Best Uninterruptible Power Supplies UPS</p>
-          <p class="text-danger py-1">New</p>
-          <p>From Harare, Zimbabwe</p>
-          <div class="d-flex justify-content-between bg-white mb-3">
-            <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
-              <div class="dropup-content">
-                <a href="#">Add to Collection</a>
-                <a href="#">Send a Message</a>
-                <a href="#">More details</a>
-              </div>
-            </div>
-            <span class="p-2 text-danger">$$$$</span>
-          </div>
-        </div>
-      </div>
+    </div>
+  </div>
       <!--televisionss-->
+  <div class="container">
     <div class="row no-gutters mx-1 bg-light">
       <h4>TELEVISION SCREENS</h4>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/XiaomiSmart85inchTV.jpg" alt="" class="h-100 w-100">
-        <p class="bg-white text-dark">Xiaomi Smart 85 inch Tv</p>
-        <p class="text-danger">New</p>
+          <img src="./images/XiaomiSmart75inchTV.jpg" alt="XiaomiSmart75inchTV" class="h-100 w-100">
+        <p class="bg-white text-dark"><strong>Xiaomi Smart 75 inch Tv, 2GB RAM + 32GB storage</strong></p>
+        <p class="text-danger py-2">New</p>
         <p>From Harare, Zimbabwe</p>
         <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
+              <div class="dropup-content">
+                <a href="#">Add to Collection</a>
+                <a href="#">Send a Message</a>
+                <a href="./results/television.html">More details</a>
+              </div>
+            </div>
+            <span class="p-2 text-danger">$528.52</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-3 col-md-3 my-3">
+        <div class="bg-white border border-secondary px-3">
+          <img src="./images/sony4K3D70inc.jpg" alt="sony4K3D70inc" class="h-100 w-100 mt-3">
+          <p class="bg-white text-dark py-2"><strong>70 Inch 4K Ultra HD LCD LED Smart 3D TV</strong></p>
+          <p class="text-danger py-2">New</p>
+          <p>From Harare, Zimbabwe</p>
+          <div class="d-flex justify-content-between bg-white mb-3">
+            <div class="dropup">
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$ 3 245,07</span>
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-sm-3 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/sony4K3D70inc.jpg" alt="" class="h-100 w-100 mt-5">
-          <p class="bg-white text-dark py-2">Sony 4K 3D 70inch Tv</p>
+          <img src="./images/SAMSUNG-65-UHD-4K-Curved-Smart-TV-RU7300.png" alt="SAMSUNG-65-UHD-4K-Curved-Smart-TV" class="h-100 w-100 mt-0">
+          <p class="bg-white text-dark py-0"><strong> SAMSUNG 65 inch UHD 4K Curved Smart TV RU7300</strong></p>
           <p class="text-danger">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$ 2 409,44 </span>
           </div>
         </div>
       </div>
-      <div class="col my-3">
+      <div class="col-6 col-md-3 my-3">
         <div class="bg-white border border-secondary px-3">
-          <img src="./images/samsungCurved.jpg" alt="" class="h-100 w-100 mt-5">
-          <p class="bg-white text-dark py-2">Samsung Curved</p>
+          <img src="./images/SAMSUNG-75-UHD-4K-Flat-Smart-T-RU7100.webp" alt="SAMSUNG-75-UHD-4K-Flat-Smart-T-RU7100" class="h-100 w-100 mt-0">
+          <p class="bg-white text-dark"><strong> SAMSUNG 75 INCH UHD 4K Flat Smart TV RU7100</strong></p>
           <p class="text-danger">New</p>
           <p>From Harare, Zimbabwe</p>
           <div class="d-flex justify-content-between bg-white mb-3">
             <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
+              <button class="dropbtn border border-secondary py-2 px-3">+</button>
               <div class="dropup-content">
                 <a href="#">Add to Collection</a>
                 <a href="#">Send a Message</a>
                 <a href="#">More details</a>
               </div>
             </div>
-            <span class="p-2 text-danger">$$$$</span>
-          </div>
-        </div>
-      </div>
-      <div class="col my-3">
-        <div class="bg-white border border-secondary px-3">
-          <img src="./images/samsung4kUhd.jpg" alt="" class="h-100 w-100 mt-4">
-          <p class="bg-white text-dark">Samsung 4k Uhd</p>
-          <p class="text-danger">New</p>
-          <p>From Harare, Zimbabwe</p>
-          <div class="d-flex justify-content-between bg-white mb-3">
-            <div class="dropup">
-              <button class="dropbtn border border-secondary">+</button>
-              <div class="dropup-content">
-                <a href="#">Add to Collection</a>
-                <a href="#">Send a Message</a>
-                <a href="#">More details</a>
-              </div>
-            </div>
-            <span class="p-2 text-danger">$$$$</span>
+            <span class="p-2 text-danger">$ 2 102,99</span>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </div>  
 </main>
-<footer class="bg-dark">
+<footer>
+  <h6 class="text-capitalize text-light text-center my-2">For more detailed information about our products and deal contact us on the following social platforms</h6>
   <div class="container">
     <div class="row d-flex justify-content-between mx-auto no-gutters py-3">
       <div class="col-2">
@@ -479,16 +496,13 @@
         <i class="fab fa-twitter fa-2x text-light"></i>
       </div>
       <div class="col-2">
-        <i class="fab fa-linkedin fa-2x text-light"></i>
-      </div>
-      <div class="col-2">
         <i class="fab fa-facebook fa-2x text-light border border-success"></i>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row mx-auto">
-      <div class="col-4 mx-auto">
+      <div class="col-12 col-sm-4 col-md-4 mx-auto">
         <p class="text-white">&copy;2021 TRIPPLE STARS&trade; electronics all rigths reserved</p>
       </div>
     </div>
